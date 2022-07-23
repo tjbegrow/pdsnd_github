@@ -5,7 +5,9 @@
 Bike Share Analysis
 
 ### Description
-Describe what your project is about and what it does
+This program analyzes bike share data from Chicago, New York and Washington.
+The user indicates what city, month and day of the week they would like to see
+results for. Once the stats are shown, the user has the option to see the DataFrames 5 at a time until they decide to stop. The application will then ask if it should be reset or not. If it is reset, the user will be brought back to the first prompt
 
 ### Files used
 Include the files used
