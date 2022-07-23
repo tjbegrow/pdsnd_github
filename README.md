@@ -16,8 +16,10 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-I didn't know how get Pandas to display a DataFrame in the terminal with all of its columns. I found out how here:
+-I didn't know how get Pandas to display a DataFrame in the terminal with all of its columns. I found out how here:
 https://stackoverflow.com/questions/11707586/how-do-i-expand-the-output-display-to-see-more-columns-of-a-pandas-dataframe
 
 pd.options.display.max_columns = None
 
+-Pandas documentation was very helpful in working with DataFrames and Series
+https://pandas.pydata.org
