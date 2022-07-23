@@ -1,5 +1,5 @@
 ### Date created
-7/20/22
+7/20/2022
 
 ### Project Title
 Bike Share Analysis
@@ -23,3 +23,4 @@ pd.options.display.max_columns = None
 
 -Pandas documentation was very helpful in working with DataFrames and Series
 https://pandas.pydata.org
+
