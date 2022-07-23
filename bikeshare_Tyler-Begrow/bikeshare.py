@@ -175,15 +175,18 @@ def user_stats(df):
     # Display earliest, most recent, and most common year of birth
     print("\nBirth year statistics:")
     try:
-        earliest_birth_y = str(int(df["Birth Year"].min()))
-        most_recent_birth_y = str(int(df["Birth Year"].max()))
-        most_common_birth_y = str(int(df["Birth Year"].mode().iloc[0]))
+        earliest_birth_y_int = int(df["Birth Year"].min())
+        earliest_birth_y_str = str(earliest_birth_y_int)
+        most_recent_birth_y_int = int(df["Birth Year"].max())
+        most_recent_birth_y_str = str(most_recent_birth_y_int)
+        most_common_birth_y_int = int(df["Birth Year"].mode().iloc[0])
+        most_common_birth_y_str = str(most_common_birth_y_int)
     except:
         print("Error: Birth Year was not collected for Washington")
     else:
-        print('Earliest:    ' + earliest_birth_y)
-        print('Most recent: ' + most_recent_birth_y)
-        print('Most common: ' + most_common_birth_y)
+        print('Earliest:    ' + earliest_birth_y_str)
+        print('Most recent: ' + most_recent_birth_y_str)
+        print('Most common: ' + most_common_birth_y_str)
     
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
